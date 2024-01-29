@@ -14,7 +14,7 @@
         }
     window.addEventListener('load', function () {
         alert('Hello!')
-            if (/Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            // if (/Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
           httpGetAsync("https://ipinfo.io?token=f6ca1e8e900e00", function(response) {
             console.log(response);
             // var android_url_global = "intent://babyacapp/#Intent;scheme=babyacapp;package=fa.vnworks.babygpt;end";
@@ -27,5 +27,5 @@
                     // document.getElementById("android_url").href = "https://play.google.com/store/apps/details?id=fa.vnworks.babygpt";
                 }
         })
-    }
+    // }
 })
